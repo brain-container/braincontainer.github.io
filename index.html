@@ -6,35 +6,68 @@
     <title>Brain Container</title>
     <style type="text/css">
         body {
-            font-family: Helvetica, Arial, sans-serif;
-            text-align: center;
-            padding-top: 50px;
+            font-family: 'Courier New', Courier, monospace; /* monospace font for that retro feel */
             background-color: #333; /* dark grey background */
             color: #f5f5f5; /* off-white text */
+            margin: 0;
+            padding: 0;
         }
-        a.button {
-            background-color: #555; /* lighter grey for the button */
-            color: white;
-            padding: 10px 20px;
+        #container {
+            display: flex;
+            min-height: 100vh;
+            align-items: flex-start;
+        }
+        #main-content {
+            flex-grow: 1;
+            text-align: center;
+            padding: 50px;
+        }
+        #sidebar {
+            width: 200px; /* fixed width sidebar */
+            background-color: #555; /* lighter grey for contrast */
+            padding: 20px;
+            height: 100vh;
+        }
+        ul.navigation {
+            list-style-type: none;
+            padding: 0;
+            text-align: left;
+        }
+        ul.navigation li a {
+            color: #f5f5f5;
             text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-            margin: 10px;
         }
-        a.button:hover {
-            background-color: #777; /* lighter grey when hovering */
+        ul.navigation li a:hover {
+            text-decoration: underline;
+        }
+        .counter, .guestbook-link {
+            text-align: left;
+            margin-top: 20px;
         }
     </style>
 </head>
 <body>
-    <h1>we are your friends</h1>
-    
-    <p>do you ever wonder</p>
-    <p>do you ever notice</p>
-    <p>what you are</p>
-
-    <!-- Navigation Buttons -->
-    <a href="https://braincontainer.org/blog" class="button">Blog</a>
-    <a href="https://braincontainer.org/music" class="button">Music</a>
+    <div id="container">
+        <div id="main-content">
+            <img src="path_to_your_neon_sign_gif.gif" alt="BRAIN CONTAINER" />
+            <h1>we are your friends</h1>
+            
+            <p>do you ever wonder</p>
+            <p>do you ever notice</p>
+            <p>what you are</p>
+            <!-- Placeholder for Visitor Counter -->
+            <div class="counter">Visitor Count: [Placeholder]</div>
+            <!-- Placeholder for Guest Book Link -->
+            <div class="guestbook-link"><a href="guestbook.html">Guestbook</a></div>
+        </div>
+        <div id="sidebar">
+            <ul class="navigation">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="music.html">Music</a></li>
+                <!-- Add additional navigation links as needed -->
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
