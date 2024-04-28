@@ -27,6 +27,7 @@
             background-color: #555; /* lighter grey for contrast */
             padding: 20px;
             height: 100vh;
+            order: -1; /* this ensures the sidebar is on the left */
         }
         ul.navigation {
             list-style-type: none;
@@ -48,15 +49,6 @@
 </head>
 <body>
     <div id="container">
-        <div id="main-content">
-            <img src="Sign.jpeg" alt="BRAIN CONTAINER" />
-            <h1>we are your friends</h1>
-            
-            <p>do you ever wonder</p>
-            <p>do you ever notice</p>
-            <p>what you are</p>
-         
-        </div>
         <div id="sidebar">
             <ul class="navigation">
                 <li><a href="index.html">Home</a></li>
@@ -64,6 +56,14 @@
                 <li><a href="music.html">Music</a></li>
                 <!-- Add additional navigation links as needed -->
             </ul>
+        </div>
+        <div id="main-content">
+            <img src="Sign.jpeg" alt="BRAIN CONTAINER" />
+            <h1>we are your friends</h1>
+            
+            <p>do you ever wonder</p>
+            <p>do you ever notice</p>
+            <p>what you are</p>
         </div>
     </div>
 </body>
