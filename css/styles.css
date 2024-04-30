@@ -16,6 +16,9 @@ body {
     display: flex;
     flex-direction: row; /* Ensures horizontal layout */
     flex-grow: 1; /* Allows container to fill available space */
+    align-items: flex-start; /* Keeps items aligned at the top */
+    justify-content: center; /* Centers content horizontally */
+    flex-grow: 1; /* Allows container to fill available space */
 }
 
 /* Sidebar styles */
