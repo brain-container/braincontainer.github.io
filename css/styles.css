@@ -30,7 +30,7 @@ body {
 #main-content {
     flex-grow: 1;
     display: flex;
-    justify-content: center; /* Centers content within main-content */
+    justify-content: flex-start; /* Aligns content at the top vertically within main-content */
     flex-direction: column; /* Stacks children vertically */
     align-items: center; /* Aligns children center horizontally within main-content */
     min-height: 100vh; /* Optional, for full height */
