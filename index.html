@@ -4,48 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brain Container</title>
-    <style type="text/css">
-        body {
-            font-family: 'Courier New', Courier, monospace; /* monospace font for that retro feel */
-            background-color: #333; /* dark grey background */
-            color: #f5f5f5; /* off-white text */
-            margin: 0;
-            padding: 0;
-        }
-        #container {
-            display: flex;
-            min-height: 100vh;
-            align-items: flex-start;
-        }
-        #main-content {
-            flex-grow: 1;
-            text-align: center;
-            padding: 50px;
-        }
-        #sidebar {
-            width: 200px; /* fixed width sidebar */
-            background-color: #555; /* lighter grey for contrast */
-            padding: 20px;
-            height: 100vh;
-            order: -1; /* this ensures the sidebar is on the left */
-        }
-        ul.navigation {
-            list-style-type: none;
-            padding: 0;
-            text-align: left;
-        }
-        ul.navigation li a {
-            color: #f5f5f5;
-            text-decoration: none;
-        }
-        ul.navigation li a:hover {
-            text-decoration: underline;
-        }
-        .counter, .guestbook-link {
-            text-align: left;
-            margin-top: 20px;
-        }
-    </style>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <div id="container">
