@@ -6,8 +6,16 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    flex-direction: column;
     min-height: 100vh;
+    width: 100%; /* Ensure full width */
+    align-items: flex-start; /* Align items at the start of the cross axis */
+}
+
+/* Container styles */
+#container {
+    display: flex;
+    flex-direction: row; /* Ensures horizontal layout */
+    flex-grow: 1; /* Allows container to fill available space */
 }
 
 /* Sidebar styles */
@@ -16,7 +24,6 @@ body {
     background-color: #555; /* Lighter grey for contrast */
     padding: 20px;
     height: 100vh;
-    order: -1; /* Ensures the sidebar is on the left */
 }
 
 /* Navigation styles */
@@ -38,7 +45,7 @@ ul.navigation li a:hover {
     text-decoration: underline;
 }
 
-/* Styling for all hyperlinks */
+/* Hyperlink styles */
 a {
     color: #FFD700; /* Gold color for links */
     text-decoration: none;
@@ -48,16 +55,16 @@ a:hover {
     text-decoration: underline; /* Adds underline on hover */
 }
 
-/* Styling for button-like links */
+/* Button-like link styles */
 .button {
     padding: 10px 15px;
-    background-color: #555; /* Lighter grey for buttons */
+    background-color: #555;
     color: white;
     border-radius: 5px;
     display: inline-block;
 }
 
-/* Additional post styles */
+/* Post styles */
 .post {
     margin: 20px auto;
     width: 80%;
@@ -66,5 +73,5 @@ a:hover {
 }
 
 h2 {
-    color: #FFD700; /* Adding a different color for headings */
+    color: #FFD700; /* Different color for headings */
 }
