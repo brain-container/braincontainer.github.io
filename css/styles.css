@@ -14,19 +14,27 @@ body {
 /* Container styles */
 #container {
     display: flex;
-    flex-direction: row; /* Ensures horizontal layout */
-    flex-grow: 1; /* Allows container to fill available space */
-    align-items: flex-start; /* Keeps items aligned at the top */
-    justify-content: center; /* Centers content horizontally */
-    flex-grow: 1; /* Allows container to fill available space */
+    flex-direction: row;
+    width: 100%; /* Ensures the container takes full width */
+    align-items: flex-start; /* Aligns items at the top */
 }
 
 /* Sidebar styles */
 #sidebar {
-    width: 200px;
-    background-color: #555; /* Lighter grey for contrast */
+    width: 150px; /* Fixed width */
+    background-color: #555;
     padding: 20px;
     height: 100vh;
+}
+
+#main-content {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center; /* Centers content within main-content */
+    flex-direction: column; /* Stacks children vertically */
+    align-items: center; /* Aligns children center horizontally within main-content */
+    min-height: 100vh; /* Optional, for full height */
+    padding: 50px;
 }
 
 /* Navigation styles */
