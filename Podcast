@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Podcast | Brain Container</title>
+    <link rel="stylesheet" href="css/styles.css">  <!-- Linking to the centralized CSS file -->
+</head>
+<body>
+    <div id="sidebar">
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="music.html">Music</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </div>
+    <div id="main-content">
+        <h1>Brain Container Podcast</h1>
+        <p> coming soon </p>
+    </div>
+</body>
+</html>
