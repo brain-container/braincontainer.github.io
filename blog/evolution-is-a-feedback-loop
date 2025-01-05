@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testing 1, 2</title>
+    <link rel="stylesheet" href="../css/styles.css"> 
+</head>
+<body>
+    <div id="sidebar">
+        <ul class="navigation">
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../music.html">Music</a></li>
+            <li><a href="../blog.html">Blog</a></li>
+            <li><a href="podcast.html">Podcast</a></li>
+        </ul>
+    </div>
+    <div id="container">
+        <div id="main-content">
+            <h1>Evolution is a Feedback Loop</h1>
+            <p>Date: January 5, 2025</p>
+            <p>Cells are known as [*the building blocks of life](https://bio.libretexts.org/Bookshelves/Introductory_and_General_Biology/General_Biology_(Boundless)/04%3A_Cell_Structure/4.01%3A_Studying_Cells_-_Cells_as_the_Basic_Unit_of_Life#:~:text=Cells%20as%20Building%20Blocks,building%20blocks%20of%20all%20organisms.).* All living things are composed of cells, and the human body has about 30 trillion (also known in scientific terms as “a lot”). These cells, almost miraculously, work together to allow us to think, breathe, eat, socialize, and navigate the world around us. 
+
+The human body — our network of cells and genes — has evolved over billions of years, through the same processes governing the evolution of trees and flowers and rabbits and bees.</p>
+        </div>
+    </div>
+</body>
+</html>
