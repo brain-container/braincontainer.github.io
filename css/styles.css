@@ -92,6 +92,6 @@ h2 {
 
 /* Paragraph styles for blog readability */
 #main-content p {
-    margin-bottom: 1.5em; /* Adds space between paragraphs */
+    margin-bottom: 1em; /* Adds space between paragraphs */
     text-align: justify; /* Aligns text for better paragraph flow */
 }
