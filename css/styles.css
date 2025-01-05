@@ -35,6 +35,9 @@ body {
     align-items: center; /* Aligns children center horizontally within main-content */
     min-height: 100vh; /* Optional, for full height */
     padding: 50px;
+    max-width: 700px; /* Limits the width of the main content for narrower paragraphs */
+    margin: 0 auto; /* Centers the main content horizontally */
+    line-height: 1.6; /* Improves readability with increased line spacing */
 }
 
 /* Navigation styles */
@@ -85,4 +88,10 @@ a:hover {
 
 h2 {
     color: #FFD700; /* Different color for headings */
+}
+
+/* Paragraph styles for blog readability */
+#main-content p {
+    margin-bottom: 1.5em; /* Adds space between paragraphs */
+    text-align: justify; /* Aligns text for better paragraph flow */
 }
